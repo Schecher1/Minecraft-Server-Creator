@@ -1,5 +1,7 @@
-﻿using System.Diagnostics;
+﻿using System;
+using System.Diagnostics;
 using System.Windows;
+using Minecraft_Server_Creator.Class;
 
 namespace Minecraft_Server_Creator.Page
 {
@@ -10,12 +12,17 @@ namespace Minecraft_Server_Creator.Page
             InitializeComponent();
         }
 
-        MainWindow mw = (MainWindow)Application.Current.MainWindow;
-
         private void bttn_click_close(object sender, RoutedEventArgs e)
         {
-            Process.Start("explorer.exe");
-            Application.Current.Shutdown();
+            try
+            {
+                Process.Start("explorer.exe", ServerCreatorCache.serverPath);
+                Application.Current.Shutdown();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message.ToString());
+            }
         }
     }
 }

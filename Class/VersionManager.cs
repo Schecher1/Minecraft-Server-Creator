@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.IO;
 using System.Net;
+using System.Windows;
 using Minecraft_Server_Creator.Resources;
 
-namespace Minecraft_Server_Creator.forms
+namespace Minecraft_Server_Creator.Class
 {
     class VersionManager
     {
@@ -22,13 +23,12 @@ namespace Minecraft_Server_Creator.forms
 
         public static void download(ServerInformation serverInformation)
         {
-            MainWindow mw = new MainWindow();
-
             downloadState = true;
-            string download_link = serverInformation.Download_link.Replace("\r", "");
-            string download_version = serverInformation.Version.Replace("\r", "");
+            string download_link = serverInformation.Download_link.Replace('\r', ' ');
+            string download_version = serverInformation.Version.Replace('\r', ' ');
             webClient.DownloadFile(new Uri(download_link), $@"C:\Users\{Environment.UserName}\AppData\Local\Temp\" + choosenVersion + " - " + download_version + ".jar");
-            //mw.Show("Download from " + choosenVersion + "-" + serverInformation.Version + ".jar" + " was successful!");
+            ServerCreatorCache.serverJar = (choosenVersion + " - " + download_version + ".jar");
+            MessageBox.Show("Download from " + choosenVersion + "-" + serverInformation.Version + ".jar" + " was successful!");
             downloadState = false;
 
 
@@ -42,7 +42,7 @@ namespace Minecraft_Server_Creator.forms
 
         public void DownloadFileCompleted(object sender, System.ComponentModel.AsyncCompletedEventArgs e)
         {
-            //MessageBox.Show("Server wurde erfolgreich geladen!");
+            MessageBox.Show("Server wurde erfolgreich geladen!");
         }
 
         public static void init()
@@ -51,13 +51,13 @@ namespace Minecraft_Server_Creator.forms
             {
                 string[] fileContent = null;
 
-                //if (choosenVersion == "bukkit")
-                //    fileContent = MinecraftServerCreator_Data.bukkit.Split("\n");
-                //if (choosenVersion == "vanilla")
-                //    fileContent = MinecraftServerCreator_Data.vanilla.Split("\n");
-                //if (choosenVersion == "spigot")
-                //    fileContent = MinecraftServerCreator_Data.spigot.Split("\n");
-
+                if (choosenVersion == "bukkit")
+                    fileContent = MinecraftServerCreator_Data.bukkit.Split('\n');
+                if (choosenVersion == "vanilla")
+                    fileContent = MinecraftServerCreator_Data.vanilla.Split('\n');
+                if (choosenVersion == "spigot")
+                    fileContent = MinecraftServerCreator_Data.spigot.Split('\n');
+                 
                 for (int i = 0; i < fileContent.Length; i += (2 * 4))
                 {
                     serverInformationList.Add(new ServerInformation(fileContent[i + 1], fileContent[i + 5], fileContent[i + 3], fileContent[i + 7]));
@@ -65,7 +65,7 @@ namespace Minecraft_Server_Creator.forms
             }
             catch (Exception ex)
             {
-                //MessageBox.Show(ex.Message.ToString());
+                MessageBox.Show(ex.Message.ToString());
             }
         }
     }

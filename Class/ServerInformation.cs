@@ -1,4 +1,4 @@
-﻿namespace Minecraft_Server_Creator.forms
+﻿namespace Minecraft_Server_Creator.Class
 {
     class ServerInformation
     {

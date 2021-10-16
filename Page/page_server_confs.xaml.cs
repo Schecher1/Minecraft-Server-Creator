@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Windows;
+using Minecraft_Server_Creator.Class;
 
 namespace Minecraft_Server_Creator.Page
 {
@@ -61,8 +62,45 @@ namespace Minecraft_Server_Creator.Page
 
         private void bttn_click_create(object sender, RoutedEventArgs e)
         {
+            try
+            {
+                //EULA Create
+                string[] EULA = { "#By changing the setting below to TRUE you are indicating your agreement to our EULA (https://account.mojang.com/documents/minecraft_eula).",
+                                "#Accepted on " + DateTime.Now,
+                                "eula=true"};
+                System.IO.File.WriteAllLines($@"{ServerCreatorCache.serverPath}\eula.txt", EULA);
 
-            mw.pageMirror.Content = new page_finish();
+                //Properties Create
+                string[] Properties = { tb_conf.Text };
+                System.IO.File.WriteAllLines($@"{ServerCreatorCache.serverPath}\server.properties", Properties);
+
+                //BAT Create
+                string[] BAT = {"@echo off",
+                              $"java -Xmx{ServerCreatorCache.serverRam}M -jar Server.jar nogui",
+                              "pause"};
+                System.IO.File.WriteAllLines($@"{ServerCreatorCache.serverPath}\PRESS ME TO START THE SERVER (Windows).bat", BAT);
+
+                //SH Create
+                string[] SH = {"#!/bin/sh",
+                            "cd '$(dirname '$0')'",
+                              $"exec java -Xmx{ServerCreatorCache.serverRam}M -jar Server.jar nogui"};
+
+                System.IO.File.WriteAllLines($@"{ServerCreatorCache.serverPath}\PRESS ME TO START THE SERVER (Linux).sh", SH);
+
+                //Copy Server.jar
+                System.IO.File.Copy($@"C:\Users\{Environment.UserName}\AppData\Local\Temp\{ServerCreatorCache.serverJar}", $@"{ServerCreatorCache.serverPath}\Server.jar", true);
+
+                //Copy server-icon
+                System.IO.File.Copy($@"{ServerCreatorCache.iconPath}", $@"{ServerCreatorCache.serverPath}\server-icon.png", true);
+
+                mw.pageMirror.Content = new page_finish();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
         }
+
+        private void cb_allcorrect_Checked(object sender, RoutedEventArgs e) => bttn_create.IsEnabled = cb_allcorrect.IsEnabled != false;
     }
 }

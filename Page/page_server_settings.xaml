@@ -11,26 +11,48 @@
 
     <Grid>
         <Label Content="~ Where should your Minecraft server be created? ~" HorizontalAlignment="Center" Foreground="{DynamicResource FontColor}" FontFamily="Comic Sans MS" FontSize="25" Margin="0,10,0,704" VerticalAlignment="Center" FontWeight="Bold" Width="674"/>
-        <Label Content="Select your Minecraft Server Path:" HorizontalAlignment="Center" Foreground="{DynamicResource FontColor}" FontFamily="Comic Sans MS" FontSize="25" Margin="0,75,0,624" Width="426"/>
-        <Label Content="My Minecraft server will be in:" HorizontalAlignment="Center" Foreground="{DynamicResource FontColor}" FontFamily="Comic Sans MS" FontSize="25" Margin="0,0,0,559" Width="372" RenderTransformOrigin="0.455,-6.889" Height="65" VerticalAlignment="Bottom"/>
+        <Label Content="Select your Minecraft Server Path:" HorizontalAlignment="Center" Foreground="{DynamicResource FontColor}" FontFamily="Comic Sans MS" FontSize="25" Margin="259,60,257,639" Width="426"/>
+        <Label Content="My Minecraft server will be in:" HorizontalAlignment="Center" Foreground="{DynamicResource FontColor}" FontFamily="Comic Sans MS" FontSize="25" Margin="284,0,286,589" Width="372" RenderTransformOrigin="0.455,-6.889" Height="50" VerticalAlignment="Bottom"/>
         <Label Content="~ How much RAM should the Minecraft server have? ~" Foreground="{DynamicResource FontColor}" FontFamily="Comic Sans MS" FontSize="25" Margin="0,241,0,473" Width="691" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold"/>
-        <Label Content="My server should have                  GB Ram!" HorizontalAlignment="Center" Foreground="{DynamicResource FontColor}" FontFamily="Comic Sans MS" FontSize="25" Margin="0,291,0,423" Width="506"/>
+        <Label Content="My server should have                  GB Ram!" HorizontalAlignment="Center" Foreground="{DynamicResource FontColor}" FontFamily="Comic Sans MS" FontSize="25" Margin="219,291,217,423" Width="506"/>
         <Label Content="~ Which image should be your Minecraft server icon? ~" HorizontalAlignment="Center" Foreground="{DynamicResource FontColor}" FontFamily="Comic Sans MS" FontSize="25" Margin="0,387,0,327" Width="693" VerticalAlignment="Center" FontWeight="Bold"/>
         <Label Content="Select your Minecraft Server Icon (64x64):" HorizontalAlignment="Center" Foreground="{DynamicResource FontColor}" FontFamily="Comic Sans MS" FontSize="25" Margin="0,450,0,265" Width="528"/>
         <Label Content="My server icon should look like:" HorizontalAlignment="Center" Foreground="{DynamicResource FontColor}" FontFamily="Comic Sans MS" FontSize="25" Margin="0,515,0,198" Width="374"/>
-        <Button x:Name="bttn_save" Content="Save the Settings" HorizontalAlignment="Center" Margin="273,0,267,25" Width="402" Height="85" Foreground="{DynamicResource FontColor}" FontFamily="Comic Sans MS" FontSize="40" FontWeight="Bold" VerticalAlignment="Bottom" Click="bttn_click_save">
+        <Button x:Name="bttn_save" Content="Save the Settings" HorizontalAlignment="Center" Margin="273,0,267,25" Width="402" Height="85" Foreground="{DynamicResource FontColor}" FontFamily="Comic Sans MS" FontSize="40" FontWeight="Bold" VerticalAlignment="Bottom" Click="bttn_click_save" IsEnabled="False">
             <Button.Background>
                 <ImageBrush ImageSource="/Minecraft-Server-Creator;component/Resources/wood_sign.png"/>
             </Button.Background>
         </Button>
-        <CheckBox Content="yes, my server should have 1 GB (1024 MB) RAM!" HorizontalAlignment="Left" Margin="195,610,0,0" VerticalAlignment="Top" Foreground="{DynamicResource FontColor}" FontFamily="Comic Sans MS" FontSize="25" RenderTransformOrigin="0.492,1.735"/>
-        <Button Content="Select" HorizontalAlignment="Left" Margin="703,79,0,0" VerticalAlignment="Top" Width="105" Height="40" Background="Transparent" Foreground="{DynamicResource FontColor}" FontWeight="Bold" FontFamily="Comic Sans MS" FontSize="22"/>
-        <Button Content="Select" HorizontalAlignment="Left" Margin="740,454,0,0" VerticalAlignment="Top" Width="105" Height="40" Background="Transparent" Foreground="{DynamicResource FontColor}" FontWeight="Bold" FontFamily="Comic Sans MS" FontSize="22"/>
-        <Frame Content="" HorizontalAlignment="Left" Height="64" Margin="671,515,0,0" VerticalAlignment="Top" Width="64">
+        <CheckBox x:Name="cb_allcorrect" Content="yes, my server should have 1 GB (1024 MB) RAM!" HorizontalAlignment="Left" Margin="195,610,0,0" VerticalAlignment="Top" Foreground="{DynamicResource FontColor}" FontFamily="Comic Sans MS" FontSize="25" RenderTransformOrigin="0.492,1.735" Checked="cb_allcorrect_Checked"/>
+        <Button x:Name="bttn_Select_InstallPath" Content="Select" HorizontalAlignment="Left" Margin="703,64,0,0" VerticalAlignment="Top" Width="105" Height="40" Background="Transparent" Foreground="{DynamicResource FontColor}" FontWeight="Bold" FontFamily="Comic Sans MS" FontSize="22" Click="bttn_Select_InstallPath_Click"/>
+        <Button x:Name="bttn_Select_IconPath" Content="Select" HorizontalAlignment="Left" Margin="740,454,0,0" VerticalAlignment="Top" Width="105" Height="40" Background="Transparent" Foreground="{DynamicResource FontColor}" FontWeight="Bold" FontFamily="Comic Sans MS" FontSize="22" Click="bttn_Select_IconPath_Click"/>
+        <Frame x:Name="frame_icon" Content="" HorizontalAlignment="Left" Height="64" Margin="671,515,0,0" VerticalAlignment="Top" Width="64">
             <Frame.Background>
                 <ImageBrush ImageSource="/Minecraft-Server-Creator;component/Resources/server-icon.png"/>
             </Frame.Background>
         </Frame>
-        <TextBox HorizontalAlignment="Left" Height="45" Margin="505,296,0,0" TextWrapping="Wrap" Text="1" VerticalAlignment="Top" Width="95" Foreground="{DynamicResource FontColor}" Background="Transparent" FontWeight="Bold" FontSize="25" RenderTransformOrigin="0.409,0.756"/>
+        <TextBox x:Name="ramValue" HorizontalAlignment="Left" Height="45" Margin="490,296,0,0" TextWrapping="Wrap" Text="1" VerticalAlignment="Top" Width="80" Foreground="{DynamicResource FontColor}" Background="Transparent" FontWeight="Bold" FontSize="25" RenderTransformOrigin="0.409,0.756" TextChanged="ramValue_Changed" IsReadOnly="True"/>
+        <Button x:Name="ramDown" Content="&gt;" Margin="580,320,332,399" Width="30"  Background="#FF424242" RenderTransformOrigin="0.5,0.5" FontWeight="Bold" FontSize="24" Click="ramDown_Click">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="ramUp" Content="&lt;" HorizontalAlignment="Left" Margin="580,285,0,0" VerticalAlignment="Top" Width="30" Height="40" Background="#FF424242" RenderTransformOrigin="0.5,0.5" FontWeight="Bold" FontSize="24" Click="ramUp_Click">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Label x:Name="msgbox_serverPath" Content="" HorizontalAlignment="Center" FontFamily="Comic Sans MS" FontSize="15" Margin="10,0,0,518" Width="932" RenderTransformOrigin="0.455,-6.889" Height="71" VerticalAlignment="Bottom" Foreground="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" ScrollViewer.VerticalScrollBarVisibility="Disabled"/>
+        <Image x:Name="ss" HorizontalAlignment="Left" Height="100" Margin="570,566,0,0" VerticalAlignment="Top" Width="100"/>
     </Grid>
 </Page>

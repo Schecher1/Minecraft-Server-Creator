@@ -7,24 +7,24 @@
       xmlns:main="clr-namespace:Minecraft_Server_Creator"
       mc:Ignorable="d" 
       d:DesignHeight="759" d:DesignWidth="942"
-      Title="page_server_res_version">
+      Title="page_server_res_version" Loaded="PageOnLoad">
 
     <Grid>
-        <GroupBox Header="Server Versions ({name})" HorizontalAlignment="Left" Height="740" Margin="10,-10,0,0" VerticalAlignment="Top" Width="425" Foreground="{DynamicResource FontColor}" FontFamily="Comic Sans MS" FontSize="25" FontWeight="Bold">
-            <ListBox HorizontalAlignment="Left" Height="700" Margin="0,10,-2,0" VerticalAlignment="Top" Width="415" Background="Transparent"/>
+        <GroupBox x:Name="gb_ListOfVersions" Header="Server Versions ({name})" HorizontalAlignment="Left" Height="740" Margin="10,-10,0,0" VerticalAlignment="Top" Width="425" Foreground="{DynamicResource FontColor}" FontFamily="Comic Sans MS" FontSize="25" FontWeight="Bold">
+            <ListBox x:Name="lb_versions" HorizontalAlignment="Left" Height="700" Margin="0,10,-2,0" VerticalAlignment="Top" Width="415" Background="Transparent" Foreground="{DynamicResource FontColor}" SelectionChanged="lb_versions_SelectionChanged"/>
         </GroupBox>
         <GroupBox Header="Info" HorizontalAlignment="Left" Height="440" Margin="507,-10,0,0" VerticalAlignment="Top" Width="413" Foreground="{DynamicResource FontColor}" FontFamily="Comic Sans MS" FontSize="25" FontWeight="Bold">
             <StackPanel HorizontalAlignment="Left" Height="405" Margin="0,0,-2,0" VerticalAlignment="Top" Width="415">
-                <Label Content="Version:" Foreground="{DynamicResource FontColor}" FontWeight="Normal" Margin="25,60,0,0"/>
-                <Label Content="Release date:" Foreground="{DynamicResource FontColor}" FontWeight="Normal" Margin="25,60,0,0"/>
-                <Label Content="File Size:" Foreground="{DynamicResource FontColor}" FontWeight="Normal" Margin="25,60,0,0"/>
+                <Label x:Name="msgbox_version" Content="Version:" Foreground="{DynamicResource FontColor}" FontWeight="Normal" Margin="25,30,0,0"/>
+                <Label x:Name="msgbox_ReleaseDate" Content="Release date:" Foreground="{DynamicResource FontColor}" FontWeight="Normal" Margin="25,40,0,0"/>
+                <Label x:Name="msgbox_filesize" Content="File Size:" Foreground="{DynamicResource FontColor}" FontWeight="Normal" Margin="25,40,0,0"/>
             </StackPanel>
         </GroupBox>
-        <Button x:Name="bttn_download" Content="Download" HorizontalAlignment="Center" Margin="507,0,33,29" Width="402" Height="85" Foreground="{DynamicResource FontColor}" FontFamily="Comic Sans MS" FontSize="40" FontWeight="Bold" VerticalAlignment="Bottom" Click="bttn_click_download">
+        <Button x:Name="bttn_download" Content="Download" HorizontalAlignment="Center" Margin="507,0,33,29" Width="402" Height="85" Foreground="{DynamicResource FontColor}" FontFamily="Comic Sans MS" FontSize="40" FontWeight="Bold" VerticalAlignment="Bottom" Click="bttn_click_download" IsEnabled="False">
             <Button.Background>
                 <ImageBrush ImageSource="/Minecraft-Server-Creator;component/Resources/wood_sign.png"/>
             </Button.Background>
         </Button>
-        <CheckBox Content="yes, i would like to download the version &quot;&quot; from &quot;&quot;." HorizontalAlignment="Left" Margin="440,586,-5,0" VerticalAlignment="Top" Foreground="{DynamicResource FontColor}" FontFamily="Comic Sans MS" FontSize="25" RenderTransformOrigin="0.492,1.735"/>
+        <CheckBox x:Name="cb_download" Content="Please Select a Version" HorizontalAlignment="Left" Margin="507,548,0,0" VerticalAlignment="Top" Foreground="{DynamicResource FontColor}" FontFamily="Comic Sans MS" FontSize="20" RenderTransformOrigin="0.492,1.735" Checked="cb_download_Checked" IsEnabled="False"/>
     </Grid>
 </Page>
