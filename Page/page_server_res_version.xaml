@@ -20,7 +20,7 @@
                 <Label Content="File Size:" Foreground="{DynamicResource FontColor}" FontWeight="Normal" Margin="25,60,0,0"/>
             </StackPanel>
         </GroupBox>
-        <Button x:Name="bttn_close" Content="Download" HorizontalAlignment="Center" Margin="507,0,33,29" Width="402" Height="85" Foreground="{DynamicResource FontColor}" FontFamily="Comic Sans MS" FontSize="40" FontWeight="Bold" VerticalAlignment="Bottom">
+        <Button x:Name="bttn_download" Content="Download" HorizontalAlignment="Center" Margin="507,0,33,29" Width="402" Height="85" Foreground="{DynamicResource FontColor}" FontFamily="Comic Sans MS" FontSize="40" FontWeight="Bold" VerticalAlignment="Bottom" Click="bttn_click_download">
             <Button.Background>
                 <ImageBrush ImageSource="/Minecraft-Server-Creator;component/Resources/wood_sign.png"/>
             </Button.Background>

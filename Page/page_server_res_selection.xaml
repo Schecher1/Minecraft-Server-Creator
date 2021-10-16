@@ -12,17 +12,17 @@
     <Grid>
         <Label Content="~Please choose one of these server modifactions~" Margin="0,41,0,0" VerticalAlignment="Top" HorizontalAlignment="Center" FontFamily="Comic Sans MS" FontSize="35" Background="Transparent" Foreground="{DynamicResource FontColor}" FontWeight="Bold" Width="877"/>
         <StackPanel Margin="25,135,25,25">
-            <Button Content="Vanilla" Height="80" FontFamily="Comic Sans MS" FontSize="30" Foreground="{DynamicResource FontColor}" FontWeight="Bold" Margin="0,100,0,0">
+            <Button x:Name="bttn_vanilla" Content="Vanilla" Height="80" FontFamily="Comic Sans MS" FontSize="30" Foreground="{DynamicResource FontColor}" FontWeight="Bold" Margin="0,100,0,0" Click="bttn_click_vanilla">
                 <Button.Background>
                     <ImageBrush ImageSource="/Minecraft-Server-Creator;component/Resources/wood_sign.png"/>
                 </Button.Background>
             </Button>
-            <Button Content="Bukkit" Height="80" FontFamily="Comic Sans MS" FontSize="30" Foreground="{DynamicResource FontColor}" FontWeight="Bold" Margin="0,100,0,0">
+            <Button x:Name="bttn_bukkit" Content="Bukkit" Height="80" FontFamily="Comic Sans MS" FontSize="30" Foreground="{DynamicResource FontColor}" FontWeight="Bold" Margin="0,100,0,0" Click="bttn_click_bukkit">
                 <Button.Background>
                     <ImageBrush ImageSource="/Minecraft-Server-Creator;component/Resources/wood_sign.png"/>
                 </Button.Background>
             </Button>
-            <Button Content="Spigot" Height="80" FontFamily="Comic Sans MS" FontSize="30" Foreground="{DynamicResource FontColor}" FontWeight="Bold" Margin="0,100">
+            <Button x:Name="bttn_spigot" Content="Spigot" Height="80" FontFamily="Comic Sans MS" FontSize="30" Foreground="{DynamicResource FontColor}" FontWeight="Bold" Margin="0,100" Click="bttn_click_spigot">
                 <Button.Background>
                     <ImageBrush ImageSource="/Minecraft-Server-Creator;component/Resources/wood_sign.png"/>
                 </Button.Background>

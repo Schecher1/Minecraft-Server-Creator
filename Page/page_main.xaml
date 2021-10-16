@@ -10,7 +10,7 @@
       Title="page_main">
 
     <Grid>
-        <Button x:Name="bttn_close" Content="Start" HorizontalAlignment="Center" Margin="270,0,270,49" Width="402" Height="85" Foreground="{DynamicResource FontColor}" FontFamily="Comic Sans MS" FontSize="40" FontWeight="Bold" VerticalAlignment="Bottom">
+        <Button Command="{x:Static main:MainWindow.GoToPage_server_res_selection}" x:Name="bttn_close" Content="Start" HorizontalAlignment="Center" Margin="270,0,270,49" Width="402" Height="85" Foreground="{DynamicResource FontColor}" FontFamily="Comic Sans MS" FontSize="40" FontWeight="Bold" VerticalAlignment="Bottom">
             <Button.Background>
                 <ImageBrush ImageSource="/Minecraft-Server-Creator;component/Resources/wood_sign.png"/>
             </Button.Background>

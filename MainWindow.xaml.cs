@@ -41,11 +41,11 @@ namespace Minecraft_Server_Creator
 
         private void CanExecuteNextPageCommand(object sender, CanExecuteRoutedEventArgs e) => e.CanExecute = true;
 
-        private void JoinPage_finish(object sender, ExecutedRoutedEventArgs e) => pageMirror.Content = new page_finish();
-        private void JoinPage_main(object sender, ExecutedRoutedEventArgs e) => pageMirror.Content = new page_main();
-        private void JoinPage_server_confs(object sender, ExecutedRoutedEventArgs e) => pageMirror.Content = new page_server_confs();
-        private void JoinPage_server_res_selection(object sender, ExecutedRoutedEventArgs e) => pageMirror.Content = new page_server_res_selection();
-        private void JoinPage_server_res_version(object sender, ExecutedRoutedEventArgs e) => pageMirror.Content = new page_server_res_version();
-        private void JoinPage_server_settings(object sender, ExecutedRoutedEventArgs e) => pageMirror.Content = new page_server_settings();
+        public void JoinPage_finish(object sender, ExecutedRoutedEventArgs e) => pageMirror.Content = new page_finish();
+        public void JoinPage_main(object sender, ExecutedRoutedEventArgs e) => pageMirror.Content = new page_main();
+        public void JoinPage_server_confs(object sender, ExecutedRoutedEventArgs e) => pageMirror.Content = new page_server_confs();
+        public void JoinPage_server_res_selection(object sender, ExecutedRoutedEventArgs e) => pageMirror.Content = new page_server_res_selection();
+        public void JoinPage_server_res_version(object sender, ExecutedRoutedEventArgs e) => pageMirror.Content = new page_server_res_version();
+        public void JoinPage_server_settings(object sender, ExecutedRoutedEventArgs e) => pageMirror.Content = new page_server_settings();
     }
 }

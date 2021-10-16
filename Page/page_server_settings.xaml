@@ -18,7 +18,7 @@
         <Label Content="~ Which image should be your Minecraft server icon? ~" HorizontalAlignment="Center" Foreground="{DynamicResource FontColor}" FontFamily="Comic Sans MS" FontSize="25" Margin="0,387,0,327" Width="693" VerticalAlignment="Center" FontWeight="Bold"/>
         <Label Content="Select your Minecraft Server Icon (64x64):" HorizontalAlignment="Center" Foreground="{DynamicResource FontColor}" FontFamily="Comic Sans MS" FontSize="25" Margin="0,450,0,265" Width="528"/>
         <Label Content="My server icon should look like:" HorizontalAlignment="Center" Foreground="{DynamicResource FontColor}" FontFamily="Comic Sans MS" FontSize="25" Margin="0,515,0,198" Width="374"/>
-        <Button x:Name="bttn_close" Content="Save the Settings" HorizontalAlignment="Center" Margin="273,0,267,25" Width="402" Height="85" Foreground="{DynamicResource FontColor}" FontFamily="Comic Sans MS" FontSize="40" FontWeight="Bold" VerticalAlignment="Bottom">
+        <Button x:Name="bttn_save" Content="Save the Settings" HorizontalAlignment="Center" Margin="273,0,267,25" Width="402" Height="85" Foreground="{DynamicResource FontColor}" FontFamily="Comic Sans MS" FontSize="40" FontWeight="Bold" VerticalAlignment="Bottom" Click="bttn_click_save">
             <Button.Background>
                 <ImageBrush ImageSource="/Minecraft-Server-Creator;component/Resources/wood_sign.png"/>
             </Button.Background>

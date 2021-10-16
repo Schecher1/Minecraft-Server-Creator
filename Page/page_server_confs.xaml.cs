@@ -17,6 +17,8 @@ namespace Minecraft_Server_Creator.Page
 {
     public partial class page_server_confs
     {
+        MainWindow mw = (MainWindow)Application.Current.MainWindow;
+
         public page_server_confs()
         {
             InitializeComponent();
@@ -67,6 +69,12 @@ namespace Minecraft_Server_Creator.Page
                 "prevent-proxy-connections=false" + Environment.NewLine +
                 "enable-rcon=false" + Environment.NewLine +
                 "motd=A Minecraft Server, made with Server-creator from GermanNightmare");
+        }
+
+        private void bttn_click_create(object sender, RoutedEventArgs e)
+        {
+
+            mw.pageMirror.Content = new page_finish();
         }
     }
 }

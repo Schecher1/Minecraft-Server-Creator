@@ -10,7 +10,7 @@
       Title="page_finish">
 
     <Grid>
-        <Button x:Name="bttn_close" Content="~ Open folder and close application ~" HorizontalAlignment="Center" Margin="50,310,50,0" Width="850" Height="105" Foreground="{DynamicResource FontColor}" FontFamily="Comic Sans MS" FontSize="40" FontWeight="Bold" VerticalAlignment="Top">
+        <Button x:Name="bttn_close" Content="~ Open folder and close application ~" HorizontalAlignment="Center" Margin="50,310,50,0" Width="850" Height="105" Foreground="{DynamicResource FontColor}" FontFamily="Comic Sans MS" FontSize="40" FontWeight="Bold" VerticalAlignment="Top" Click="bttn_click_close">
             <Button.Background>
                 <ImageBrush ImageSource="/Minecraft-Server-Creator;component/Resources/wood_sign.png"/>
             </Button.Background>
