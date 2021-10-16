@@ -1,8 +1,11 @@
 ﻿using System;
+using System.Drawing;
 using System.IO;
 using System.Windows;
 using System.Windows.Forms;
+using System.Windows.Media.Imaging;
 using Minecraft_Server_Creator.Class;
+using Minecraft_Server_Creator.Resources;
 using Application = System.Windows.Application;
 using MessageBox = System.Windows.MessageBox;
 
@@ -18,6 +21,7 @@ namespace Minecraft_Server_Creator.Page
         MainWindow mw = (MainWindow)Application.Current.MainWindow;
         OpenFileDialog ofd = new OpenFileDialog();
         FolderBrowserDialog fbd = new FolderBrowserDialog();
+        
         string ServerPath = null;
         string IcoPath = null;
 
@@ -78,8 +82,7 @@ namespace Minecraft_Server_Creator.Page
                 ofd.Filter = "PNG| *.png";
                 if (ofd.ShowDialog() == DialogResult.OK)
                 {
-                    // frame_icon.Source = new Uri(ofd.FileName, UriKind.Absolute);
-                    IcoPath = ofd.FileName;
+                    msgbox_iconPath.Content = ofd.FileName;
                 }
             }
             catch (Exception ex)
