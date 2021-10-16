@@ -1,0 +1,36 @@
+﻿<Page x:Class="Minecraft_Server_Creator.Page.page_server_settings"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Minecraft_Server_Creator.Page"
+      xmlns:main="clr-namespace:Minecraft_Server_Creator"
+      mc:Ignorable="d" 
+      d:DesignHeight="759" d:DesignWidth="942"
+      Title="page_server_settings">
+
+    <Grid>
+        <Label Content="~ Where should your Minecraft server be created? ~" HorizontalAlignment="Center" Foreground="{DynamicResource FontColor}" FontFamily="Comic Sans MS" FontSize="25" Margin="0,10,0,704" VerticalAlignment="Center" FontWeight="Bold" Width="674"/>
+        <Label Content="Select your Minecraft Server Path:" HorizontalAlignment="Center" Foreground="{DynamicResource FontColor}" FontFamily="Comic Sans MS" FontSize="25" Margin="0,75,0,624" Width="426"/>
+        <Label Content="My Minecraft server will be in:" HorizontalAlignment="Center" Foreground="{DynamicResource FontColor}" FontFamily="Comic Sans MS" FontSize="25" Margin="0,0,0,559" Width="372" RenderTransformOrigin="0.455,-6.889" Height="65" VerticalAlignment="Bottom"/>
+        <Label Content="~ How much RAM should the Minecraft server have? ~" Foreground="{DynamicResource FontColor}" FontFamily="Comic Sans MS" FontSize="25" Margin="0,241,0,473" Width="691" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold"/>
+        <Label Content="My server should have                  GB Ram!" HorizontalAlignment="Center" Foreground="{DynamicResource FontColor}" FontFamily="Comic Sans MS" FontSize="25" Margin="0,291,0,423" Width="506"/>
+        <Label Content="~ Which image should be your Minecraft server icon? ~" HorizontalAlignment="Center" Foreground="{DynamicResource FontColor}" FontFamily="Comic Sans MS" FontSize="25" Margin="0,387,0,327" Width="693" VerticalAlignment="Center" FontWeight="Bold"/>
+        <Label Content="Select your Minecraft Server Icon (64x64):" HorizontalAlignment="Center" Foreground="{DynamicResource FontColor}" FontFamily="Comic Sans MS" FontSize="25" Margin="0,450,0,265" Width="528"/>
+        <Label Content="My server icon should look like:" HorizontalAlignment="Center" Foreground="{DynamicResource FontColor}" FontFamily="Comic Sans MS" FontSize="25" Margin="0,515,0,198" Width="374"/>
+        <Button x:Name="bttn_close" Content="Save the Settings" HorizontalAlignment="Center" Margin="273,0,267,25" Width="402" Height="85" Foreground="{DynamicResource FontColor}" FontFamily="Comic Sans MS" FontSize="40" FontWeight="Bold" VerticalAlignment="Bottom">
+            <Button.Background>
+                <ImageBrush ImageSource="/Minecraft-Server-Creator;component/Resources/wood_sign.png"/>
+            </Button.Background>
+        </Button>
+        <CheckBox Content="yes, my server should have 1 GB (1024 MB) RAM!" HorizontalAlignment="Left" Margin="195,610,0,0" VerticalAlignment="Top" Foreground="{DynamicResource FontColor}" FontFamily="Comic Sans MS" FontSize="25" RenderTransformOrigin="0.492,1.735"/>
+        <Button Content="Select" HorizontalAlignment="Left" Margin="703,79,0,0" VerticalAlignment="Top" Width="105" Height="40" Background="Transparent" Foreground="{DynamicResource FontColor}" FontWeight="Bold" FontFamily="Comic Sans MS" FontSize="22"/>
+        <Button Content="Select" HorizontalAlignment="Left" Margin="740,454,0,0" VerticalAlignment="Top" Width="105" Height="40" Background="Transparent" Foreground="{DynamicResource FontColor}" FontWeight="Bold" FontFamily="Comic Sans MS" FontSize="22"/>
+        <Frame Content="" HorizontalAlignment="Left" Height="64" Margin="671,515,0,0" VerticalAlignment="Top" Width="64">
+            <Frame.Background>
+                <ImageBrush ImageSource="/Minecraft-Server-Creator;component/Resources/server-icon.png"/>
+            </Frame.Background>
+        </Frame>
+        <TextBox HorizontalAlignment="Left" Height="45" Margin="505,296,0,0" TextWrapping="Wrap" Text="1" VerticalAlignment="Top" Width="95" Foreground="{DynamicResource FontColor}" Background="Transparent" FontWeight="Bold" FontSize="25" RenderTransformOrigin="0.409,0.756"/>
+    </Grid>
+</Page>

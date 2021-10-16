@@ -5,8 +5,52 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Minecraft_Server_Creator"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Minecraft Server Creator | Vers 1.0.0.0  | Vanilla, Bukkit and Spigot  | Made by Schecher_1" 
+        Height="800" Width="1200"
+        MaxHeight="800" MaxWidth="1200"
+        MinHeight="800" MinWidth="1200">
+    <Window.Resources>
+        <FontFamily x:Key="FontFamily">Comic Sans MS</FontFamily>
+    </Window.Resources>
+    <Window.Background>
+        <ImageBrush ImageSource="Resources/wood_wall.png"/>
+    </Window.Background>
+
     <Grid>
-        
+        <GroupBox Header="Procedure" HorizontalAlignment="Left" Height="740" Margin="10,0,0,0" VerticalAlignment="Top" Width="240" Foreground="{DynamicResource FontColor}" FontSize="25" FontFamily="{DynamicResource FontFamily}">
+            <StackPanel HorizontalAlignment="Left" Width="230" Margin="0,0,-2,3">
+                <Button Command="{x:Static local:MainWindow.GoToPage_server_res_selection}" Height="94" Margin="10,40,10,20" FontWeight="Bold" Foreground="{DynamicResource FontColor}" FontSize="25" IsDefault="True" UseLayoutRounding="True" >
+                    <Button.Background>
+                        <ImageBrush ImageSource="Resources/wood_sign.png"/>
+                    </Button.Background>
+                    <TextBlock TextWrapping="Wrap" Text="Choose Server modifactions" Width="200" Height="70" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                </Button>
+                <Button Command="{x:Static local:MainWindow.GoToPage_server_res_version}" Height="94" Margin="10,20" FontWeight="Bold" Foreground="{DynamicResource FontColor}">
+                    <Button.Background>
+                        <ImageBrush ImageSource="Resources/wood_sign.png"/>
+                    </Button.Background>
+                    <TextBlock TextWrapping="Wrap" Text="Choose Server version" Width="200" Height="70" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                </Button>
+                <Button Command="{x:Static local:MainWindow.GoToPage_server_settings}" Height="94" Margin="10,20" FontWeight="Bold" Foreground="{DynamicResource FontColor}">
+                    <Button.Background>
+                        <ImageBrush ImageSource="Resources/wood_sign.png"/>
+                    </Button.Background>
+                    <TextBlock TextWrapping="Wrap" Text="Create Server settings" Width="200" Height="70" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                </Button>
+                <Button Command="{x:Static local:MainWindow.GoToPage_server_confs}" Height="94" Margin="10,20" FontWeight="Bold" Foreground="{DynamicResource FontColor}">
+                    <Button.Background>
+                        <ImageBrush ImageSource="Resources/wood_sign.png"/>
+                    </Button.Background>
+                    <TextBlock TextWrapping="Wrap" Text="Create Server configs" Width="200" Height="70" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                </Button>
+                <Button Command="{x:Static local:MainWindow.GoToPage_finish}" Height="94" Margin="10,20,10,40" FontWeight="Bold" Foreground="{DynamicResource FontColor}">
+                    <Button.Background>
+                        <ImageBrush ImageSource="Resources/wood_sign.png"/>
+                    </Button.Background>
+                    <TextBlock TextWrapping="Wrap" Text="Create Server" Width="200" Height="70" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                </Button>
+            </StackPanel>
+        </GroupBox>
+        <Frame x:Name="pageMirror" Content="Frame" HorizontalAlignment="Left" Height="759" Margin="250,10,0,0" VerticalAlignment="Top" Width="942" NavigationUIVisibility="Hidden"/>
     </Grid>
 </Window>

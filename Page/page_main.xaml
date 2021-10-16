@@ -1,0 +1,22 @@
+﻿<Page x:Class="Minecraft_Server_Creator.Page.page_main"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Minecraft_Server_Creator.Page"
+      xmlns:main="clr-namespace:Minecraft_Server_Creator"
+      mc:Ignorable="d" 
+      d:DesignHeight="759" d:DesignWidth="942"
+      Title="page_main">
+
+    <Grid>
+        <Button x:Name="bttn_close" Content="Start" HorizontalAlignment="Center" Margin="270,0,270,49" Width="402" Height="85" Foreground="{DynamicResource FontColor}" FontFamily="Comic Sans MS" FontSize="40" FontWeight="Bold" VerticalAlignment="Bottom">
+            <Button.Background>
+                <ImageBrush ImageSource="/Minecraft-Server-Creator;component/Resources/wood_sign.png"/>
+            </Button.Background>
+        </Button>
+        <Label Content="Welcome to the Minecraft Server Creator" Margin="0,55,0,0" VerticalAlignment="Top" HorizontalAlignment="Center" FontFamily="Comic Sans MS" FontSize="35" Background="Transparent" Foreground="{DynamicResource FontColor}" FontWeight="Bold"/>
+        <Label Content="Press the button to start" Margin="103,161,103,0" VerticalAlignment="Top" HorizontalAlignment="Center" FontFamily="Comic Sans MS" FontSize="35" Background="Transparent" Foreground="{DynamicResource FontColor}" FontWeight="Bold"/>
+
+    </Grid>
+</Page>

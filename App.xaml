@@ -4,6 +4,8 @@
              xmlns:local="clr-namespace:Minecraft_Server_Creator"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+
+        <SolidColorBrush x:Key="FontColor" Color="#FF7E7E7E"/>
+
     </Application.Resources>
 </Application>

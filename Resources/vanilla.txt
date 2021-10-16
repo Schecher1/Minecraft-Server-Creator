@@ -1,0 +1,520 @@
+Version
+1.17.1
+Size
+41.6 MB
+Release date
+Tuesday, July 06 2021
+Download
+https://launcher.mojang.com/v1/objects/a16d67e5807f57fc4e550299cf20226194497dc2/server.jar
+Version
+1.17
+Size
+41.6 MB
+Release date
+Tuesday, June 08 2021
+Download
+https://launcher.mojang.com/v1/objects/0a269b5f2c5b93b1712d0f5dc43b6182b9ab254e/server.jar
+Version
+1.16.5
+Size
+36.2 MB
+Release date
+Friday, January 15 2021
+Download
+https://launcher.mojang.com/v1/objects/35139deedbd5182953cf1caa23835da59ca3d7cd/server.jar
+Version
+1.16.4
+Size
+36.2 MB
+Release date
+Thursday, October 29 2020
+Download
+https://launcher.mojang.com/v1/objects/35139deedbd5182953cf1caa23835da59ca3d7cd/server.jar
+Version
+1.16.3
+Size
+36.2 MB
+Release date
+Thursday, September 10 2020
+Download
+https://launcher.mojang.com/v1/objects/f02f4473dbf152c23d7d484952121db0b36698cb/server.jar
+Version
+1.16.2
+Size
+36.2 MB
+Release date
+Wednesday, August 12 2020
+Download
+https://launcher.mojang.com/v1/objects/a412fd69db1f81db3f511c1463fd304675244077/server.jar
+Version
+1.16.1
+Size
+36.2 MB
+Release date
+Wednesday, June 24 2020
+Download
+https://launcher.mojang.com/v1/objects/a412fd69db1f81db3f511c1463fd304675244077/server.jar
+Version
+1.15.2
+Size
+34.5 MB
+Release date
+Tuesday, January 21 2020
+Download
+https://launcher.mojang.com/v1/objects/4d1826eebac84847c71a77f9349cc22afd0cf0a1/server.jar
+Version
+1.15.1
+Size
+34.5 MB
+Release date
+Tuesday, December 17 2019
+Download
+https://launcher.mojang.com/v1/objects/4d1826eebac84847c71a77f9349cc22afd0cf0a1/server.jar
+Version
+1.15
+Size
+34.5 MB
+Release date
+Tuesday, December 10 2019
+Download
+https://launcher.mojang.com/v1/objects/e9f105b3c5c7e85c7b445249a93362a22f62442d/server.jar
+Version
+1.14.4
+Size
+34.3 MB
+Release date
+Friday, July 19 2019
+Download
+https://launcher.mojang.com/v1/objects/d0d0fe2b1dc6ab4c65554cb734270872b72dadd6/server.jar
+Version
+1.14.3
+Size
+34.3 MB
+Release date
+Monday, June 24 2019
+Download
+https://launcher.mojang.com/v1/objects/d0d0fe2b1dc6ab4c65554cb734270872b72dadd6/server.jar
+Version
+1.14.2
+Size
+34.3 MB
+Release date
+Monday, May 27 2019
+Download
+https://launcher.mojang.com/v1/objects/808be3869e2ca6b62378f9f4b33c946621620019/server.jar
+Version
+1.14.1
+Size
+34.3 MB
+Release date
+Monday, May 13 2019
+Download
+https://launcher.mojang.com/v1/objects/ed76d597a44c5266be2a7fcd77a8270f1f0bc118/server.jar
+Version
+1.14
+Size
+34.3 MB
+Release date
+Tuesday, April 23 2019
+Download
+https://launcher.mojang.com/v1/objects/f1a0073671057f01aa843443fef34330281333ce/server.jar
+Version
+1.13.2
+Size
+32.3 MB
+Release date
+Monday, October 22 2018
+Download
+https://launcher.mojang.com/v1/objects/3737db93722a9e39eeada7c27e7aca28b144ffa7/server.jar
+Version
+1.13.1
+Size
+32.3 MB
+Release date
+Monday, August 27 2018
+Download
+https://launcher.mojang.com/v1/objects/fe123682e9cb30031eae351764f653500b7396c9/server.jar
+Version
+1.13
+Size
+31.1 MB
+Release date
+Thursday, July 19 2018
+Download
+https://launcher.mojang.com/mc/game/1.13/server/d0caafb8438ebd206f99930cfaecfa6c9a13dca0/server.jar
+Version
+1.12.2
+Size
+28.8 MB
+Release date
+Monday, September 18 2017
+Download
+https://launcher.mojang.com/mc/game/1.12.2/server/886945bfb2b978778c3a0288fd7fab09d315b25f/server.jar
+Version
+1.12.1
+Size
+28.8 MB
+Release date
+Friday, August 04 2017
+Download
+https://launcher.mojang.com/mc/game/1.12.1/server/561c7b2d54bae80cc06b05d950633a9ac95da816/server.jar
+Version
+1.12
+Size
+28.8 MB
+Release date
+Wednesday, June 07 2017
+Download
+https://launcher.mojang.com/mc/game/1.12/server/8494e844e911ea0d63878f64da9dcc21f53a3463/server.jar
+Version
+1.11.2
+Size
+9.29 MB
+Release date
+Thursday, May 18 2017
+Download
+https://launcher.mojang.com/mc/game/1.11.2/server/f00c294a1576e03fddcac777c3cf4c7d404c4ba4/server.jar
+Version
+1.11.1
+Size
+9.27 MB
+Release date
+Tuesday, December 20 2016
+Download
+https://launcher.mojang.com/mc/game/1.11.1/server/1f97bd101e508d7b52b3d6a7879223b000b5eba0/server.jar
+Version
+1.11
+Size
+9.26 MB
+Release date
+Monday, November 14 2016
+Download
+https://launcher.mojang.com/mc/game/1.11/server/48820c84cb1ed502cb5b2fe23b8153d5e4fa61c0/server.jar
+Version
+1.10.2
+Size
+9.26 MB
+Release date
+Thursday, June 23 2016
+Download
+https://launcher.mojang.com/mc/game/1.10.2/server/3d501b23df53c548254f5e3f66492d178a48db63/server.jar
+Version
+1.10.1
+Size
+9.26 MB
+Release date
+Wednesday, June 22 2016
+Download
+https://launcher.mojang.com/mc/game/1.10.1/server/cb4c6f9f51a845b09a8861cdbe0eea3ff6996dee/server.jar
+Version
+1.10
+Size
+9.02 MB
+Release date
+Wednesday, June 08 2016
+Download
+https://launcher.mojang.com/mc/game/1.10/server/a96617ffdf5dabbb718ab11a9a68e50545fc5bee/server.jar
+Version
+1.9.4
+Size
+8.96 MB
+Release date
+Tuesday, May 10 2016
+Download
+https://launcher.mojang.com/mc/game/1.9.4/server/edbb7b1758af33d365bf835eb9d13de005b1e274/server.jar
+Version
+1.9.3
+Size
+8.96 MB
+Release date
+Tuesday, May 10 2016
+Download
+https://launcher.mojang.com/mc/game/1.9.3/server/8e897b6b6d784f745332644f4d104f7a6e737ccf/server.jar
+Version
+1.9.2
+Size
+8.44 MB
+Release date
+Wednesday, March 30 2016
+Download
+https://launcher.mojang.com/mc/game/1.9.2/server/2b95cc7b136017e064c46d04a5825fe4cfa1be30/server.jar
+Version
+1.9.1
+Size
+8.44 MB
+Release date
+Wednesday, March 30 2016
+Download
+https://launcher.mojang.com/mc/game/1.9.1/server/bf95d9118d9b4b827f524c878efd275125b56181/server.jar
+Version
+1.9
+Size
+8.44 MB
+Release date
+Monday, February 29 2016
+Download
+https://launcher.mojang.com/mc/game/1.9/server/b4d449cf2918e0f3bd8aa18954b916a4d1880f0d/server.jar
+Version
+1.8.9
+Size
+7.94 MB
+Release date
+Thursday, December 03 2015
+Download
+https://launcher.mojang.com/mc/game/1.8.9/server/b58b2ceb36e01bcd8dbf49c8fb66c55a9f0676cd/server.jar
+Version
+1.8.8
+Size
+7.94 MB
+Release date
+Monday, July 27 2015
+Download
+https://launcher.mojang.com/mc/game/1.8.8/server/5fafba3f58c40dc51b5c3ca72a98f62dfdae1db7/server.jar
+Version
+1.8.7
+Size
+9.33 MB
+Release date
+Friday, June 05 2015
+Download
+https://launcher.mojang.com/mc/game/1.8.7/server/35c59e16d1f3b751cd20b76b9b8a19045de363a9/server.jar
+Version
+1.8.6
+Size
+9.33 MB
+Release date
+Monday, May 25 2015
+Download
+https://launcher.mojang.com/mc/game/1.8.6/server/2bd44b53198f143fb278f8bec3a505dad0beacd2/server.jar
+Version
+1.8.5
+Size
+9.33 MB
+Release date
+Friday, May 22 2015
+Download
+https://launcher.mojang.com/mc/game/1.8.5/server/ea6dd23658b167dbc0877015d1072cac21ab6eee/server.jar
+Version
+1.8.4
+Size
+9.33 MB
+Release date
+Friday, April 17 2015
+Download
+https://launcher.mojang.com/mc/game/1.8.4/server/dd4b5eba1c79500390e0b0f45162fa70d38f8a3d/server.jar
+Version
+1.8.3
+Size
+9.33 MB
+Release date
+Friday, February 20 2015
+Download
+https://launcher.mojang.com/mc/game/1.8.3/server/163ba351cb86f6390450bb2a67fafeb92b6c0f2f/server.jar
+Version
+1.8.2
+Size
+9.33 MB
+Release date
+Thursday, February 19 2015
+Download
+https://launcher.mojang.com/mc/game/1.8.2/server/a37bdd5210137354ed1bfe3dac0a5b77fe08fe2e/server.jar
+Version
+1.8.1
+Size
+7.54 MB
+Release date
+Monday, November 24 2014
+Download
+https://launcher.mojang.com/mc/game/1.8.1/server/68bfb524888f7c0ab939025e07e5de08843dac0f/server.jar
+Version
+1.8
+Size
+9.89 MB
+Release date
+Tuesday, September 02 2014
+Download
+https://launcher.mojang.com/mc/game/1.8/server/a028f00e678ee5c6aef0e29656dca091b5df11c7/server.jar
+Version
+1.7.10
+Size
+9.16 MB
+Release date
+Wednesday, May 14 2014
+Download
+https://launcher.mojang.com/mc/game/1.7.10/server/952438ac4e01b4d115c5fc38f891710c4941df29/server.jar
+Version
+1.7.9
+Size
+9.16 MB
+Release date
+Monday, April 14 2014
+Download
+https://launcher.mojang.com/mc/game/1.7.9/server/4cec86a928ec171fdc0c6b40de2de102f21601b5/server.jar
+Version
+1.7.8
+Size
+9.16 MB
+Release date
+Wednesday, April 09 2014
+Download
+https://launcher.mojang.com/mc/game/1.7.8/server/c69ebfb84c2577661770371c4accdd5f87b8b21d/server.jar
+Version
+1.7.7
+Size
+9.04 MB
+Release date
+Wednesday, April 09 2014
+Download
+https://launcher.mojang.com/mc/game/1.7.7/server/a6ffc1624da980986c6cc12a1ddc79ab1b025c62/server.jar
+Version
+1.7.6
+Size
+9.04 MB
+Release date
+Wednesday, April 09 2014
+Download
+https://launcher.mojang.com/mc/game/1.7.6/server/41ea7757d4d7f74b95fc1ac20f919a8e521e910c/server.jar
+Version
+1.7.5
+Size
+8.75 MB
+Release date
+Wednesday, February 26 2014
+Download
+https://launcher.mojang.com/mc/game/1.7.5/server/e1d557b2e31ea881404e41b05ec15c810415e060/server.jar
+Version
+1.7.4
+Size
+8.75 MB
+Release date
+Monday, December 09 2013
+Download
+https://launcher.mojang.com/mc/game/1.7.4/server/61220311cef80aecc4cd8afecd5f18ca6b9461ff/server.jar
+Version
+1.7.3
+Size
+8.75 MB
+Release date
+Friday, December 06 2013
+Download
+https://launcher.mojang.com/mc/game/1.7.3/server/707857a7bc7bf54fe60d557cca71004c34aa07bb/server.jar
+Version
+1.7.2
+Size
+8.74 MB
+Release date
+Friday, October 25 2013
+Download
+https://launcher.mojang.com/mc/game/1.7.2/server/3716cac82982e7c2eb09f83028b555e9ea606002/server.jar
+Version
+1.6.4
+Size
+5.85 MB
+Release date
+Thursday, September 19 2013
+Download
+https://launcher.mojang.com/mc/game/1.6.4/server/050f93c1f3fe9e2052398f7bd6aca10c63d64a87/server.jar
+Version
+1.6.2
+Size
+5.85 MB
+Release date
+Friday, July 05 2013
+Download
+https://launcher.mojang.com/mc/game/1.6.2/server/01b6ea555c6978e6713e2a2dfd7fe19b1449ca54/server.jar
+Version
+1.6.1
+Size
+2.25 MB
+Release date
+Friday, June 28 2013
+Download
+https://launcher.mojang.com/mc/game/1.6.1/server/0252918a5f9d47e3c6eb1dfec02134d1374a89b4/server.jar
+Version
+1.5.2
+Size
+2.25 MB
+Release date
+Thursday, April 25 2013
+Download
+https://launcher.mojang.com/mc/game/1.5.2/server/f9ae3f651319151ce99a0bfad6b34fa16eb6775f/server.jar
+Version
+1.5.1
+Size
+1.97 MB
+Release date
+Wednesday, March 20 2013
+Download
+https://launcher.mojang.com/mc/game/1.5.1/server/d07c71ee2767dabb79fb32dad8162e1b854d5324/server.jar
+Version
+1.4.7
+Size
+1.97 MB
+Release date
+Thursday, December 27 2012
+Download
+https://launcher.mojang.com/mc/game/1.4.7/server/2f0ec8efddd2f2c674c77be9ddb370b727dec676/server.jar
+Version
+1.4.5
+Size
+1.95 MB
+Release date
+Wednesday, December 19 2012
+Download
+https://launcher.mojang.com/mc/game/1.4.5/server/c12fd88a8233d2c517dbc8196ba2ae855f4d36ea/server.jar
+Version
+1.4.6
+Size
+1.95 MB
+Release date
+Wednesday, December 19 2012
+Download
+https://launcher.mojang.com/mc/game/1.4.6/server/a0aeb5709af5f2c3058c1cf0dc6b110a7a61278c/server.jar
+Version
+1.4.4
+Size
+1.95 MB
+Release date
+Thursday, December 13 2012
+Download
+https://launcher.mojang.com/mc/game/1.4.4/server/4215dcadb706508bf9d6d64209a0080b9cee9e71/server.jar
+Version
+1.4.2
+Size
+1.92 MB
+Release date
+Saturday, November 24 2012
+Download
+https://launcher.mojang.com/mc/game/1.4.2/server/5be700523a729bb78ef99206fb480a63dcd09825/server.jar
+Version
+1.3.2
+Size
+1.72 MB
+Release date
+Wednesday, August 15 2012
+Download
+https://launcher.mojang.com/mc/game/1.3.2/server/3de2ae6c488135596e073a9589842800c9f53bfe/server.jar
+Version
+1.3.1
+Size
+1.72 MB
+Release date
+Tuesday, July 31 2012
+Download
+https://launcher.mojang.com/mc/game/1.3.1/server/82563ce498bfc1fc8a2cb5bf236f7da86a390646/server.jar
+Version
+1.2.5
+Size
+1.34 MB
+Release date
+Thursday, March 29 2012
+Download
+https://launcher.mojang.com/mc/game/1.2.5/server/d8321edc9470e56b8ad5c67bbd16beba25843336/server.jar
+Version
+1.2.5
+Size
+1.34 MB
+Release date
+Wednesday, February 29 2012
+Download
+https://launcher.mojang.com/mc/game/1.2.5/server/d8321edc9470e56b8ad5c67bbd16beba25843336/server.jar
