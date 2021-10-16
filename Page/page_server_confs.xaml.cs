@@ -1,12 +1,17 @@
 ﻿using System;
+using System.Drawing;
 using System.Windows;
+using System.Windows.Media.Imaging;
 using Minecraft_Server_Creator.Class;
+using Minecraft_Server_Creator.Resources;
 
 namespace Minecraft_Server_Creator.Page
 {
     public partial class page_server_confs
     {
         MainWindow mw = (MainWindow)Application.Current.MainWindow;
+
+        
 
         public page_server_confs()
         {
@@ -91,7 +96,13 @@ namespace Minecraft_Server_Creator.Page
                 System.IO.File.Copy($@"C:\Users\{Environment.UserName}\AppData\Local\Temp\{ServerCreatorCache.serverJar}", $@"{ServerCreatorCache.serverPath}\Server.jar", true);
 
                 //Copy server-icon
-                System.IO.File.Copy($@"{ServerCreatorCache.iconPath}", $@"{ServerCreatorCache.serverPath}\server-icon.png", true);
+                if (ServerCreatorCache.iconPath == "")
+                {
+                    Bitmap servericon = MinecraftServerCreator_Data.server_icon;
+                    servericon.Save($@"{ServerCreatorCache.serverPath}\server-icon.png");
+                }
+                else
+                    System.IO.File.Copy($@"{ServerCreatorCache.iconPath}", $@"{ServerCreatorCache.serverPath}\server-icon.png", true);
 
                 mw.pageMirror.Content = new page_finish();
             }
@@ -102,7 +113,6 @@ namespace Minecraft_Server_Creator.Page
         }
 
         private void cb_allcorrect_Checked(object sender, RoutedEventArgs e) => bttn_create.IsEnabled = true;
-
         private void cb_allcorrect_Unchecked(object sender, RoutedEventArgs e) => bttn_create.IsEnabled = false;
     }
 }

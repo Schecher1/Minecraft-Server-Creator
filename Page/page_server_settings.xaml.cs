@@ -19,7 +19,7 @@ namespace Minecraft_Server_Creator.Page
         OpenFileDialog ofd = new OpenFileDialog();
         FolderBrowserDialog fbd = new FolderBrowserDialog();
         string ServerPath = null;
-        string IcoPath = "default";
+        string IcoPath = null;
 
         private void bttn_click_save(object sender, RoutedEventArgs e)
         {
