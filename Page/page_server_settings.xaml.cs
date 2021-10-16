@@ -1,11 +1,7 @@
 ﻿using System;
-using System.Drawing;
-using System.IO;
 using System.Windows;
 using System.Windows.Forms;
-using System.Windows.Media.Imaging;
 using Minecraft_Server_Creator.Class;
-using Minecraft_Server_Creator.Resources;
 using Application = System.Windows.Application;
 using MessageBox = System.Windows.MessageBox;
 

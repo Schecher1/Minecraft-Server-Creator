@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Drawing;
 using System.Windows;
-using System.Windows.Media.Imaging;
 using Minecraft_Server_Creator.Class;
 using Minecraft_Server_Creator.Resources;
 
@@ -10,8 +9,6 @@ namespace Minecraft_Server_Creator.Page
     public partial class page_server_confs
     {
         MainWindow mw = (MainWindow)Application.Current.MainWindow;
-
-        
 
         public page_server_confs()
         {
