@@ -94,11 +94,6 @@
     <Compile Include="Page\page_server_settings.xaml.cs">
       <DependentUpon>page_server_settings.xaml</DependentUpon>
     </Compile>
-    <Compile Include="README1.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>README.md</DependentUpon>
-    </Compile>
     <Compile Include="Resources\MinecraftServerCreator_Data.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
