@@ -88,6 +88,8 @@ namespace Minecraft_Server_Creator.Page
             }
         }
 
-        private void cb_allcorrect_Checked(object sender, RoutedEventArgs e) => bttn_save.IsEnabled = cb_allcorrect.IsEnabled != false;
+        private void cb_allcorrect_Checked(object sender, RoutedEventArgs e) => bttn_save.IsEnabled = true;
+
+        private void cb_allcorrect_Unchecked(object sender, RoutedEventArgs e) => bttn_save.IsEnabled = false;
     }
 }

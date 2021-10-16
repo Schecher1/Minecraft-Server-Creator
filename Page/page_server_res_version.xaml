@@ -25,6 +25,6 @@
                 <ImageBrush ImageSource="/Minecraft-Server-Creator;component/Resources/wood_sign.png"/>
             </Button.Background>
         </Button>
-        <CheckBox x:Name="cb_download" Content="Please Select a Version" HorizontalAlignment="Left" Margin="507,548,0,0" VerticalAlignment="Top" Foreground="{DynamicResource FontColor}" FontFamily="Comic Sans MS" FontSize="20" RenderTransformOrigin="0.492,1.735" Checked="cb_download_Checked" IsEnabled="False"/>
+        <CheckBox x:Name="cb_download" Content="Please Select a Version" HorizontalAlignment="Left" Margin="507,548,0,0" VerticalAlignment="Top" Foreground="{DynamicResource FontColor}" FontFamily="Comic Sans MS" FontSize="20" RenderTransformOrigin="0.492,1.735" IsEnabled="False" Unchecked="cb_download_Unchecked" Checked="cb_download_Checked"/>
     </Grid>
 </Page>

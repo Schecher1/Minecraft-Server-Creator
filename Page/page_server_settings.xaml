@@ -23,7 +23,7 @@
                 <ImageBrush ImageSource="/Minecraft-Server-Creator;component/Resources/wood_sign.png"/>
             </Button.Background>
         </Button>
-        <CheckBox x:Name="cb_allcorrect" Content="yes, my server should have 1 GB (1024 MB) RAM!" HorizontalAlignment="Left" Margin="195,610,0,0" VerticalAlignment="Top" Foreground="{DynamicResource FontColor}" FontFamily="Comic Sans MS" FontSize="25" RenderTransformOrigin="0.492,1.735" Checked="cb_allcorrect_Checked"/>
+        <CheckBox x:Name="cb_allcorrect" Content="yes, my server should have 1 GB (1024 MB) RAM!" HorizontalAlignment="Left" Margin="195,610,0,0" VerticalAlignment="Top" Foreground="{DynamicResource FontColor}" FontFamily="Comic Sans MS" FontSize="25" RenderTransformOrigin="0.492,1.735" Checked="cb_allcorrect_Checked" Unchecked="cb_allcorrect_Unchecked" IsEnabled="False"/>
         <Button x:Name="bttn_Select_InstallPath" Content="Select" HorizontalAlignment="Left" Margin="703,64,0,0" VerticalAlignment="Top" Width="105" Height="40" Background="Transparent" Foreground="{DynamicResource FontColor}" FontWeight="Bold" FontFamily="Comic Sans MS" FontSize="22" Click="bttn_Select_InstallPath_Click"/>
         <Button x:Name="bttn_Select_IconPath" Content="Select" HorizontalAlignment="Left" Margin="740,454,0,0" VerticalAlignment="Top" Width="105" Height="40" Background="Transparent" Foreground="{DynamicResource FontColor}" FontWeight="Bold" FontFamily="Comic Sans MS" FontSize="22" Click="bttn_Select_IconPath_Click"/>
         <Frame x:Name="frame_icon" Content="" HorizontalAlignment="Left" Height="64" Margin="671,515,0,0" VerticalAlignment="Top" Width="64">
@@ -52,7 +52,7 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
-        <Label x:Name="msgbox_serverPath" Content="" HorizontalAlignment="Center" FontFamily="Comic Sans MS" FontSize="15" Margin="10,0,0,518" Width="932" RenderTransformOrigin="0.455,-6.889" Height="71" VerticalAlignment="Bottom" Foreground="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" ScrollViewer.VerticalScrollBarVisibility="Disabled"/>
+        <Label x:Name="msgbox_serverPath" Content="" HorizontalAlignment="Center" FontFamily="Comic Sans MS" FontSize="20" Margin="10,0,0,518" Width="932" RenderTransformOrigin="0.455,-6.889" Height="71" VerticalAlignment="Bottom" Foreground="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" ScrollViewer.VerticalScrollBarVisibility="Disabled" Cursor=""/>
         <Image x:Name="ss" HorizontalAlignment="Left" Height="100" Margin="570,566,0,0" VerticalAlignment="Top" Width="100"/>
     </Grid>
 </Page>

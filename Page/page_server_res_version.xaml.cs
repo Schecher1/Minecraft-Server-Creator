@@ -47,6 +47,8 @@ namespace Minecraft_Server_Creator.Page
             cb_download.Content = ("Yes," + Environment.NewLine + "i would like to download the version " + Environment.NewLine + serverInformation.Version + " from " + VersionManager.choosenVersion + ".");
         }
 
-        private void cb_download_Checked(object sender, RoutedEventArgs e) => bttn_download.IsEnabled = cb_download.IsEnabled != false;
+        private void cb_download_Unchecked(object sender, RoutedEventArgs e) => bttn_download.IsEnabled = false;
+
+        private void cb_download_Checked(object sender, RoutedEventArgs e) => bttn_download.IsEnabled = true;
     }
 }
