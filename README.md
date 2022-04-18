@@ -32,12 +32,10 @@ Go to the "DOWNLOAD" folder and download any version. Or [press here](https://gi
 
 4. Confirm the selection and press "Download" and wait until you get a notification (may take a while)
 
-5. Make the default settings for the server.
+5. Edit the server configuration in the editor or leave it on default (Attention: a wrong entry can make the server unbootable! Only edit with caution)
 
-6. Edit the server configuration in the editor or leave it on default (Attention: a wrong entry can make the server unbootable! Only edit with caution)
+6. Confirm the Minecraft EULA and press "Create Server".
 
-7. Confirm the Minecraft EULA and press "Create Server".
+7. Press the button "Open folder and close application" and then the right folder will be opened, in the folder there are 2 start files (.bat for windows & .sh for Linux).
 
-8. Press the button "Open folder and close application" and then the right folder will be opened, in the folder there are 2 start files (.bat for windows & .sh for Linux).
-
-9. Have Fun :)
+8. Have Fun :)

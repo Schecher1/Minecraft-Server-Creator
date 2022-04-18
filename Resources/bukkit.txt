@@ -1,4 +1,28 @@
 Version
+1.18.2
+Size
+64.5 MB
+Release date
+Sunday, March 06 2022
+Download
+https://download.getbukkit.org/craftbukkit/craftbukkit-1.18.2.jar
+Version
+1.18.1
+Size
+64.2 MB
+Release date
+Friday, December 10 2021
+Download
+https://download.getbukkit.org/craftbukkit/craftbukkit-1.18.1.jar
+Version
+1.18
+Size
+64.2 MB
+Release date
+Tuesday, November 30 2021
+Download
+https://download.getbukkit.org/craftbukkit/craftbukkit-1.18.jar
+Version
 1.17.1
 Size
 42.8 MB

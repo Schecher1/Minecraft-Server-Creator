@@ -177,6 +177,7 @@
       <LastGenOutput>MinecraftServerCreator_Data.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <None Include="DOWNLOAD\Latest Version.zip" />
+    <None Include="DOWNLOAD\README.md" />
     <None Include="DOWNLOAD\Version 1.0.0.0.zip" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

@@ -1,4 +1,28 @@
 Version
+1.18.2
+Size
+64.7 MB
+Release date
+Sunday, March 06 2022
+Download
+https://download.getbukkit.org/spigot/spigot-1.18.2.jar
+Version
+1.18.1
+Size
+64.4 MB
+Release date
+Friday, December 10 2021
+Download
+https://download.getbukkit.org/spigot/spigot-1.18.1.jar
+Version
+1.18
+Size
+64.4 MB
+Release date
+Tuesday, November 30 2021
+Download
+https://download.getbukkit.org/spigot/spigot-1.18.jar
+Version
 1.17.1
 Size
 43.1 MB

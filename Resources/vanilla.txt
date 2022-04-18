@@ -1,4 +1,28 @@
 Version
+1.18.2
+Size
+44.4 MB
+Release date
+Sunday, March 06 2022
+Download
+https://launcher.mojang.com/v1/objects/c8f83c5655308435b3dcf03c06d9fe8740a77469/server.jar
+Version
+1.18.1
+Size
+44.2 MB
+Release date
+Friday, December 10 2021
+Download
+https://launcher.mojang.com/v1/objects/125e5adf40c659fd3bce3e66e67a16bb49ecc1b9/server.jar
+Version
+1.18
+Size
+44.2 MB
+Release date
+Tuesday, November 30 2021
+Download
+https://launcher.mojang.com/v1/objects/3cf24a8694aca6267883b17d934efacc5e44440d/server.jar
+Version
 1.17.1
 Size
 41.6 MB
