@@ -11,7 +11,7 @@ It can be reached under "localhost" or, if necessary, on your server IP.
 
 ## How to Download:
 
-Go to the "Releases" and download any version. Or [press here](https://github.com/Schecher1/Minecraft-Server-Creator/releases/download/Minecraft-Server-Creator-Ver-1.0.0.1/Program.zip) to download if you want the latest one
+Go to the "Releases" and download any version. Or [press here](https://github.com/Schecher1/Minecraft-Server-Creator/releases/download/Minecraft-Server-Creator-Ver-1.5.0.1/Program.zip) to download if you want the latest one
 
 
 ## Features:
@@ -42,6 +42,9 @@ Go to the "Releases" and download any version. Or [press here](https://github.co
 
 
 <h1>CHANGELOG</h1>
+
+## Version 1.5.0.1
+-->The program is now much more dynamic, you can now add "versions libraries" yourself. (In the versions folder) <br/>
 
 ## Version 1.0.0.1
 -->The latest versions of Vanilla,Spigot and Bukkit were added (1.18 & 1.18.1 & 1.18.2)<br/>
