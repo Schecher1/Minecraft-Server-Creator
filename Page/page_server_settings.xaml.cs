@@ -19,7 +19,6 @@ namespace Minecraft_Server_Creator.Page
         FolderBrowserDialog fbd = new FolderBrowserDialog();
         
         string ServerPath = null;
-        string IcoPath = null;
 
         private void bttn_click_save(object sender, RoutedEventArgs e)
         {

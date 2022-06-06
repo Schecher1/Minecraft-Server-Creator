@@ -1,4 +1,9 @@
-﻿using System.Windows;
+﻿using System;
+using System.IO;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
 using Minecraft_Server_Creator.Class;
 
 namespace Minecraft_Server_Creator.Page
@@ -12,22 +17,33 @@ namespace Minecraft_Server_Creator.Page
 
         MainWindow mw = (MainWindow)Application.Current.MainWindow;
 
-        private void bttn_click_vanilla(object sender, RoutedEventArgs e)
+        private void bttn_click(object sender, RoutedEventArgs e)
         {
-            VersionManager.choosenVersion = "vanilla";
+            VersionManager.choosenVersion = ((Button)sender).Name;
             mw.pageMirror.Content = new page_server_res_version();
         }
 
-        private void bttn_click_bukkit(object sender, RoutedEventArgs e)
+        private void Page_Loaded(object sender, RoutedEventArgs e)
         {
-            VersionManager.choosenVersion = "bukkit";
-            mw.pageMirror.Content = new page_server_res_version();
-        }
+            sP_version.Children.Clear();
 
-        private void bttn_click_spigot(object sender, RoutedEventArgs e)
-        {
-            VersionManager.choosenVersion = "spigot";
-            mw.pageMirror.Content = new page_server_res_version();
+            foreach (var item in Directory.GetFiles("versions"))
+            {
+                var versionButton = new Button()
+                {
+                    Content = item.Split('\\')[1].Split('.')[0].ToLower(),
+                    Height = 80,
+                    FontFamily = new FontFamily("Comic Sans MS"),
+                    FontSize = 30,
+                    Foreground = new SolidColorBrush(Color.FromRgb(126, 126, 126)),
+                    FontWeight = FontWeights.Bold,
+                    Margin = new Thickness(0, 0, 0, 100),
+                    Background = new ImageBrush(new BitmapImage(new Uri("pack://application:,,,/Minecraft-Server-Creator;component/Resources/wood_sign.png")))
+                };
+                versionButton.Click += bttn_click;
+
+                sP_version.Children.Add(versionButton);
+            }
         }
     }
 }
