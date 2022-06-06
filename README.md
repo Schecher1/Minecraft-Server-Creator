@@ -11,13 +11,13 @@ It can be reached under "localhost" or, if necessary, on your server IP.
 
 ## How to Download:
 
-Go to the "DOWNLOAD" folder and download any version. Or [press here](https://github.com/Schecher1/Minecraft-Server-Creator/raw/master/DOWNLOAD/Latest%20Version.zip) to download if you want the latest one
+Go to the "Releases" and download any version. Or [press here](https://github.com/Schecher1/Minecraft-Server-Creator/releases/download/Minecraft-Server-Creator-Ver-1.0.0.1/Program.zip) to download if you want the latest one
 
 
 ## Features:
 
 ✔️ Step by step								<br />
-✔ automatic downloader						<br />
+✔️ automatic downloader						<br />
 ✔️ user-friendly / beginner-friendly		<br />
 ✔️ requires NO installation, just start it	<br />
 
