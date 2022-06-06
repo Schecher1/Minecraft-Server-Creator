@@ -21,6 +21,9 @@ Go to the "Releases" and download any version. Or [press here](https://github.co
 ✔️ user-friendly / beginner-friendly		<br />
 ✔️ requires NO installation, just start it	<br />
 
+## Image:
+### Server Version Chooser:
+![Server-Login](IMAGES/Version%201.5.0.1/VersionChooser.PNG)
 
 ## Process description:
 
