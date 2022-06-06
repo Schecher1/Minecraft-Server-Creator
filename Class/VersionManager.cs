@@ -49,24 +49,10 @@ namespace Minecraft_Server_Creator.Class
         {
             try
             {
-                string[] fileContent = null;
+                string[] fileContent = File.ReadAllLines($@"versions\{choosenVersion}.txt");
 
-                //if (choosenVersion == "bukkit")
-                //    fileContent = MinecraftServerCreator_Data.bukkit.Split('\n');
-                //if (choosenVersion == "vanilla")
-                //    fileContent = MinecraftServerCreator_Data.vanilla.Split('\n');
-                //if (choosenVersion == "spigot")
-                //    fileContent = MinecraftServerCreator_Data.spigot.Split('\n');
-
-                if (MinecraftServerCreator_Data.ResourceManager.GetObject(choosenVersion) is null)
-                {
-                    serverInformationList.Clear();
-                    return;
-                }
-
-                fileContent = MinecraftServerCreator_Data.ResourceManager.GetObject(choosenVersion).ToString().Split('\n');
-
-
+                serverInformationList.Clear();
+                
                 for (int i = 0; i < fileContent.Length; i += (2 * 4))
                 {
                     serverInformationList.Add(new ServerInformation(fileContent[i + 1], fileContent[i + 5], fileContent[i + 3], fileContent[i + 7]));

@@ -44,6 +44,9 @@ namespace Minecraft_Server_Creator.Page
 
                 sP_version.Children.Add(versionButton);
             }
+
+            if (sP_version.Children.Count == 0)
+                MessageBox.Show("No version libraries were found, if the error remains, delete the \"versions\" folder where the program is (and restart). So that the problem will be fixed.");
         }
     }
 }
