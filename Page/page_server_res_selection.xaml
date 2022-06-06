@@ -14,8 +14,6 @@
         <Label Content="~Please choose one of these server modifactions~" Margin="0,41,0,0" VerticalAlignment="Top" HorizontalAlignment="Center" FontFamily="Comic Sans MS" FontSize="35" Background="Transparent" Foreground="{DynamicResource FontColor}" FontWeight="Bold" Width="877"/>
         <ScrollViewer Margin="0,125,0,0" HorizontalScrollBarVisibility="Hidden" VerticalScrollBarVisibility="Hidden">
             <StackPanel x:Name="sP_version" Margin="50,0,50,0">
-
-
             </StackPanel>
         </ScrollViewer>
     </Grid>

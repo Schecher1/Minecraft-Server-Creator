@@ -19,7 +19,7 @@ namespace Minecraft_Server_Creator.Page
 
         private void bttn_click(object sender, RoutedEventArgs e)
         {
-            VersionManager.choosenVersion = ((Button)sender).Name;
+            VersionManager.choosenVersion = ((Button)sender).Content.ToString();
             mw.pageMirror.Content = new page_server_res_version();
         }
 
