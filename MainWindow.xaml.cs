@@ -1,4 +1,6 @@
 ﻿using Minecraft_Server_Creator.Page;
+using Minecraft_Server_Creator.Resources;
+using System.IO;
 using System.Windows;
 using System.Windows.Input;
 
@@ -35,5 +37,17 @@ namespace Minecraft_Server_Creator
         public void JoinPage_server_res_selection(object sender, ExecutedRoutedEventArgs e) => pageMirror.Content = new page_server_res_selection();
         public void JoinPage_server_res_version(object sender, ExecutedRoutedEventArgs e) => pageMirror.Content = new page_server_res_version();
         public void JoinPage_server_settings(object sender, ExecutedRoutedEventArgs e) => pageMirror.Content = new page_server_settings();
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            if (Directory.Exists("versions"))
+                return;
+            
+            Directory.CreateDirectory("versions");
+
+            File.WriteAllText("versions/bukkit.txt", MinecraftServerCreator_Data.bukkit);
+            File.WriteAllText("versions/spigot.txt", MinecraftServerCreator_Data.spigot);
+            File.WriteAllText("versions/vanilla.txt", MinecraftServerCreator_Data.vanilla);
+        }
     }
 }
