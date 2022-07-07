@@ -1,4 +1,4 @@
-﻿<h1>Minecraft-Server-Creator (Vanilla/Bukkit/Spigot)</h1>
+# Minecraft-Server-Creator (Vanilla/Bukkit/Spigot)
 
 
 ## Application description:
@@ -16,10 +16,10 @@ Go to the "Releases" and download any version. Or [press here](https://github.co
 
 ## Features:
 
-✔️ Step by step								<br />
-✔️ automatic downloader						<br />
-✔️ user-friendly / beginner-friendly		<br />
-✔️ requires NO installation, just start it	<br />
+✔️ Step by step<br/>
+✔️ automatic downloader<br/>
+✔️ user-friendly / beginner-friendly<br/>
+✔️ requires NO installation, just start it<br/>
 
 ## Image:
 ### Server Version Chooser:
@@ -44,13 +44,13 @@ Go to the "Releases" and download any version. Or [press here](https://github.co
 8. Have Fun :)
 
 
-<h1>CHANGELOG</h1>
+# CHANGELOG
 
-## Version 1.5.0.1
+## 1.5.0.1
 -->The program is now much more dynamic, you can now add "versions libraries" yourself. (In the versions folder) <br/>
 
-## Version 1.0.0.1
+## 1.0.0.1
 -->The latest versions of Vanilla,Spigot and Bukkit were added (1.18 & 1.18.1 & 1.18.2)<br/>
 
-## Version 1.0.0.0
+## 1.0.0.0
 -->The Programm Minecraft Server Creator was published for Vanilla,Spigot and Bukkit<br/>
