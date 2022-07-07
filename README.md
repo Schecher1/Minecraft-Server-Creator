@@ -47,10 +47,10 @@ Go to the "Releases" and download any version. Or [press here](https://github.co
 # CHANGELOG
 
 ## 1.5.0.1
--->The program is now much more dynamic, you can now add "versions libraries" yourself. (In the versions folder) <br/>
+- The program is now much more dynamic, you can now add "versions libraries" yourself. (In the versions folder) <br/>
 
 ## 1.0.0.1
--->The latest versions of Vanilla,Spigot and Bukkit were added (1.18 & 1.18.1 & 1.18.2)<br/>
+- The latest versions of Vanilla,Spigot and Bukkit were added (1.18 & 1.18.1 & 1.18.2)<br/>
 
 ## 1.0.0.0
--->The Programm Minecraft Server Creator was published for Vanilla,Spigot and Bukkit<br/>
+- The Programm Minecraft Server Creator was published for Vanilla,Spigot and Bukkit<br/>
