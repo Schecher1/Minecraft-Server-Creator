@@ -78,16 +78,16 @@ namespace Minecraft_Server_Creator.Page
 
                 //BAT Create
                 string[] BAT = {"@echo off",
-                              $"java -Xmx{ServerCreatorCache.serverRam}M -jar Server.jar nogui",
-                              "pause"};
-                System.IO.File.WriteAllLines($@"{ServerCreatorCache.serverPath}\PRESS ME TO START THE SERVER (Windows).bat", BAT);
+                                          ":ServerLoop",
+                                          $"java -Xmx{ServerCreatorCache.serverRam}M -jar Server.jar nogui",
+                                          "goto ServerLoop"};
+                System.IO.File.WriteAllLines($@"{ServerCreatorCache.serverPath}\ServerStarter_Windows.bat", BAT);
 
                 //SH Create
                 string[] SH = {"#!/bin/sh",
-                            "cd '$(dirname '$0')'",
-                              $"exec java -Xmx{ServerCreatorCache.serverRam}M -jar Server.jar nogui"};
+                                        $"exec java -Xmx{ServerCreatorCache.serverRam}M -jar Server.jar nogui"};
 
-                System.IO.File.WriteAllLines($@"{ServerCreatorCache.serverPath}\PRESS ME TO START THE SERVER (Linux).sh", SH);
+                System.IO.File.WriteAllLines($@"{ServerCreatorCache.serverPath}\ServerStarter_Linux.sh", SH);
 
                 //Copy Server.jar
                 System.IO.File.Copy($@"C:\Users\{Environment.UserName}\AppData\Local\Temp\{ServerCreatorCache.serverJar}", $@"{ServerCreatorCache.serverPath}\Server.jar", true);

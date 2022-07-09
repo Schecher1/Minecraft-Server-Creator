@@ -188,7 +188,9 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="IMAGES\Version 1.5.0.1\VersionChooser.PNG" />
+  </ItemGroup>
   <ItemGroup>
     <Resource Include="Resources\bukkit.txt" />
     <Resource Include="Resources\GermanNightmare_logo.ico" />
