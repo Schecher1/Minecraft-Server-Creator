@@ -46,6 +46,9 @@ Go to the "Releases" and download any version. Or [press here](https://github.co
 
 # CHANGELOG
 
+## 1.5.0.2
+- Server starter files were named meaningful (without caps, without space, short text) <br/>
+
 ## 1.5.0.1
 - The program is now much more dynamic, you can now add "versions libraries" yourself. (In the versions folder) <br/>
 
