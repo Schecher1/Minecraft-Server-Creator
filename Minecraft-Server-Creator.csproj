@@ -216,5 +216,14 @@
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="IMAGES\Version 1.5.1.2\EndScreen.PNG" />
+    <Resource Include="IMAGES\Version 1.5.1.2\ServerConfigScreen.PNG" />
+    <Resource Include="IMAGES\Version 1.5.1.2\ServerModifactionsScreen.PNG" />
+    <Resource Include="IMAGES\Version 1.5.1.2\ServerSettingsScreen.PNG" />
+    <Resource Include="IMAGES\Version 1.5.1.2\ServerVersionScreen.PNG" />
+    <Resource Include="IMAGES\Version 1.5.1.2\WelcomeScreen.PNG" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

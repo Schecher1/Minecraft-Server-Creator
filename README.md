@@ -22,8 +22,23 @@ Go to the "Releases" and download any version. Or [press here](https://github.co
 ✔️ requires NO installation, just start it<br/>
 
 ## Image:
-### Server Version Chooser:
-![Server-Login](IMAGES/Version%201.5.0.1/VersionChooser.PNG)
+### Welcome Screen:
+![Welcome-Screen](IMAGES/Version%201.5.1.2/WelcomeScreen.PNG)
+
+### Server Modifactions Screen:
+![Server-Modifactions-Screen](IMAGES/Version%201.5.1.2/ServerModifactionsScreen.PNG)
+
+### Server Version Screen:
+![Server-Version-Screen](IMAGES/Version%201.5.1.2/ServerVersionScreen.PNG)
+
+### Server Settings Screen:
+![Server-Settings-Screen](IMAGES/Version%201.5.1.2/ServerSettingsScreen.PNG)
+
+### Server Config Screen:
+![Server-Config-Screen](IMAGES/Version%201.5.1.2/ServerConfigScreen.PNG)
+
+### End Screen:
+![End-Screen](IMAGES/Version%201.5.1.2/EndScreen.PNG)
 
 ## Process description:
 
@@ -46,6 +61,10 @@ Go to the "Releases" and download any version. Or [press here](https://github.co
 
 # CHANGELOG
 
+## 1.5.1.2
+- The download from the server file is started in a new thread so that the setup can continue. Without having to wait<br/>
+- The button bug on the sidebar has been fixed. The buttons are locked and unlocked when they are needed.<br/>
+
 ## 1.5.0.1
 - The program is now much more dynamic, you can now add "versions libraries" yourself. (In the versions folder) <br/>
 
@@ -54,3 +73,5 @@ Go to the "Releases" and download any version. Or [press here](https://github.co
 
 ## 1.0.0.0
 - The Programm Minecraft Server Creator was published for Vanilla,Spigot and Bukkit<br/>
+
+
