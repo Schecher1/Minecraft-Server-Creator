@@ -65,7 +65,7 @@ Go to the "Releases" and download any version. Or [press here](https://github.co
 - The download from the server file is started in a new thread so that the setup can continue. Without having to wait<br/>
 - The button bug on the sidebar has been fixed. The buttons are locked and unlocked when they are needed.<br/>
 
-## 1.5.0.1
+## 1.5.0.2
 - The program is now much more dynamic, you can now add "versions libraries" yourself. (In the versions folder) <br/>
 
 ## 1.0.0.1
