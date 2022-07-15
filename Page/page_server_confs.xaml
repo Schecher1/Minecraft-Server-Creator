@@ -21,7 +21,7 @@
         </Button>
         <CheckBox x:Name="cb_allcorrect" Content="Yes, I confirm the Minecraft Server EULA" HorizontalAlignment="Left" Margin="213,610,0,0" VerticalAlignment="Top" Foreground="{DynamicResource FontColor}" FontFamily="Comic Sans MS" FontSize="25" RenderTransformOrigin="0.492,1.735" Checked="cb_allcorrect_Checked" Unchecked="cb_allcorrect_Unchecked"/>
         <GroupBox Header="Server configuration" HorizontalAlignment="Left" Height="600" VerticalAlignment="Top" Width="850" Margin="50,-10,0,0" FontFamily="Comic Sans MS" FontSize="25" Foreground="{DynamicResource FontColor}" FontWeight="Bold">
-            <TextBox x:Name="tb_conf" HorizontalAlignment="Left" Height="555" Margin="0,10,-2,-7" TextWrapping="Wrap" Text="#Minecraft server propertiesadsasd" VerticalAlignment="Top" Width="840" AcceptsReturn="True" SelectionTextBrush="White" Background="Transparent" FontWeight="Normal" Foreground="White"/>
+            <TextBox x:Name="tb_conf" HorizontalAlignment="Left" Height="555" Margin="0,10,-2,-7" TextWrapping="Wrap" Text="#Minecraft server properties" VerticalAlignment="Top" Width="840" AcceptsReturn="True" SelectionTextBrush="White" Background="Transparent" FontWeight="Normal" Foreground="White"/>
         </GroupBox>
 
     </Grid>
