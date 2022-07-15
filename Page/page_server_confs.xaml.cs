@@ -64,6 +64,12 @@ namespace Minecraft_Server_Creator.Page
 
         private void bttn_click_create(object sender, RoutedEventArgs e)
         {
+            if (VersionManager.downloadState)
+            {
+                MessageBox.Show("The download has not been completed yet (for the server file), please wait until a window pops up");
+                return;
+            }
+
             try
             {
                 //EULA Create

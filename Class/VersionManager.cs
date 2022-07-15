@@ -5,6 +5,7 @@ using System.IO;
 using System.Net;
 using System.Windows;
 using Minecraft_Server_Creator.Resources;
+using System.Threading.Tasks;
 
 namespace Minecraft_Server_Creator.Class
 {
@@ -23,26 +24,24 @@ namespace Minecraft_Server_Creator.Class
 
         public static void download(ServerInformation serverInformation)
         {
-            downloadState = true;
-            string download_link = serverInformation.Download_link.Replace('\r', ' ');
-            string download_version = serverInformation.Version.Replace('\r', ' ');
-            webClient.DownloadFile(new Uri(download_link), $@"C:\Users\{Environment.UserName}\AppData\Local\Temp\" + choosenVersion + " - " + download_version + ".jar");
-            ServerCreatorCache.serverJar = (choosenVersion + " - " + download_version + ".jar");
-            MessageBox.Show("Download from " + choosenVersion + "-" + serverInformation.Version + ".jar" + " was successful!");
-            downloadState = false;
-
-
-            string tmp_file_path = Path.Combine(Path.GetTempPath(), "msccache_jar.txt");
-            string[] serverVersion =
+            Task.Run(() =>
             {
+                downloadState = true;
+                string download_link = serverInformation.Download_link.Replace('\r', ' ');
+                string download_version = serverInformation.Version.Replace('\r', ' ');
+                webClient.DownloadFile(new Uri(download_link), $@"C:\Users\{Environment.UserName}\AppData\Local\Temp\" + choosenVersion + " - " + download_version + ".jar");
+                ServerCreatorCache.serverJar = (choosenVersion + " - " + download_version + ".jar");
+                MessageBox.Show("Download from " + choosenVersion + "-" + serverInformation.Version + ".jar" + " was successful!");
+                downloadState = false;
+
+
+                string tmp_file_path = Path.Combine(Path.GetTempPath(), "msccache_jar.txt");
+                string[] serverVersion =
+                {
                 choosenVersion + " - " + serverInformation.Version + ".jar"
             };
-            File.WriteAllLines(tmp_file_path, serverVersion);
-        }
-
-        public void DownloadFileCompleted(object sender, System.ComponentModel.AsyncCompletedEventArgs e)
-        {
-            MessageBox.Show("Server wurde erfolgreich geladen!");
+                File.WriteAllLines(tmp_file_path, serverVersion);
+            });
         }
 
         public static void init()
