@@ -19,6 +19,7 @@ namespace Minecraft_Server_Creator.Page
             try
             {
                 VersionManager.download(VersionManager.serverInformationList.Where(si => si.Version == lb_versions.SelectedItem.ToString().Split(' ')[1]).First());
+                Class.SideBarModel.Bttn_CreateServerSettings = true;
                 mw.pageMirror.Content = new page_server_settings();
             }
             catch (Exception ex)

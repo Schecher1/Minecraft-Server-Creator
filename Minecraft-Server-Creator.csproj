@@ -15,7 +15,7 @@
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
     <IsWebBootstrapper>false</IsWebBootstrapper>
-    <PublishUrl>C:\Users\Schecher_1\Desktop\ss\</PublishUrl>
+    <PublishUrl>C:\Users\Schecher_1\Desktop\sss\</PublishUrl>
     <Install>false</Install>
     <InstallFrom>Disk</InstallFrom>
     <UpdateEnabled>false</UpdateEnabled>
@@ -93,6 +93,7 @@
     </ApplicationDefinition>
     <Compile Include="Class\ServerCreatorCache.cs" />
     <Compile Include="Class\ServerInformation.cs" />
+    <Compile Include="Class\SideBarModel.cs" />
     <Compile Include="Class\VersionManager.cs" />
     <Compile Include="Page\page_finish.xaml.cs">
       <DependentUpon>page_finish.xaml</DependentUpon>

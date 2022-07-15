@@ -31,12 +31,31 @@ namespace Minecraft_Server_Creator
 
         private void CanExecuteNextPageCommand(object sender, CanExecuteRoutedEventArgs e) => e.CanExecute = true;
 
-        public void JoinPage_finish(object sender, ExecutedRoutedEventArgs e) => pageMirror.Content = new page_finish();
+        public void JoinPage_finish(object sender, ExecutedRoutedEventArgs e)
+        {  
+            if (Class.SideBarModel.Bttn_CreateServer)
+                pageMirror.Content = new page_finish();
+        }
         public void JoinPage_main(object sender, ExecutedRoutedEventArgs e) => pageMirror.Content = new page_main();
-        public void JoinPage_server_confs(object sender, ExecutedRoutedEventArgs e) => pageMirror.Content = new page_server_confs();
-        public void JoinPage_server_res_selection(object sender, ExecutedRoutedEventArgs e) => pageMirror.Content = new page_server_res_selection();
-        public void JoinPage_server_res_version(object sender, ExecutedRoutedEventArgs e) => pageMirror.Content = new page_server_res_version();
-        public void JoinPage_server_settings(object sender, ExecutedRoutedEventArgs e) => pageMirror.Content = new page_server_settings();
+        public void JoinPage_server_confs(object sender, ExecutedRoutedEventArgs e)
+        {
+            if (Class.SideBarModel.Bttn_CreateServerConfigs)
+                pageMirror.Content = new page_server_confs();
+        }
+        public void JoinPage_server_res_selection(object sender, ExecutedRoutedEventArgs e)
+        {
+                pageMirror.Content = new page_server_res_selection();
+        }
+        public void JoinPage_server_res_version(object sender, ExecutedRoutedEventArgs e)
+        {
+            if (Class.SideBarModel.Bttn_ChooseServerVersion)
+                pageMirror.Content = new page_server_res_version();
+        }
+        public void JoinPage_server_settings(object sender, ExecutedRoutedEventArgs e)
+        {
+            if (Class.SideBarModel.Bttn_CreateServerSettings)
+                pageMirror.Content = new page_server_settings();
+        }
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {

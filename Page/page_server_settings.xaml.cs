@@ -27,6 +27,7 @@ namespace Minecraft_Server_Creator.Page
                 ServerCreatorCache.iconPath = ofd.FileName;
                 ServerCreatorCache.serverRam = Convert.ToInt32(ramValue.Text) * 1024;
                 ServerCreatorCache.serverPath = fbd.SelectedPath;
+                Class.SideBarModel.Bttn_CreateServerConfigs = true;
                 mw.pageMirror.Content = new page_server_confs();
             }
             catch (Exception ex)
